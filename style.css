@@ -1,0 +1,327 @@
+
+/* navbar */
+.top{
+    border-bottom:1px solid rgb(78, 76, 76) !important;
+}
+.logo div{
+    width: 100px;
+}
+.navbar-brand h1{
+    font-size: 1.5rem;
+    color: rgba(255,255,255,1) !important;
+}
+.navbar-brand span{
+    font-size: 1.5rem;
+    color: #f4b214 !important;
+}
+.navbar-desc{
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.7) !important;
+    text-decoration: none;
+}
+.nav-item{
+    /* border-bottom:2px solid transparent; */
+    transition: all 0.4s;
+}
+.nav-item:hover a{
+    color: #f4b214 !important;
+}
+.nav-link{
+    color: rgba(255,255,255,0.7) !important;
+    font-size: 0.9rem;
+}
+/* carousel */
+.slidetxt{
+    width: 500px;
+}
+.slidetxt h2{
+    font-size: 2.8rem;
+    color: #fff !important;
+}
+.slidetxt p{
+    font-size: 1.2rem;
+    color: #fff !important;
+}
+.slidetxt button{
+    background-color:#f4b214 ;
+    color: #fff;
+    transition: all 0.3s;
+    font-size: 0.8rem;
+    border-radius:30px;
+    border-bottom-left-radius:0px;
+}
+.slidetxt button:hover{
+    background-color:#000  ;
+}
+.slide-item{
+    bottom:5%;
+}
+.slide-item img{
+    width: 40px;
+}
+
+.slide-item > div > div{
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+}
+.slide-item h3{
+    font-size: 1.1rem;
+    color: rgb(214, 209, 209);
+
+}
+.slide-item p{
+    font-size: 0.7rem;
+    color: rgb(180, 175, 175);
+    line-height: 25px;
+}
+/* service */
+.parttitle h3{
+    font-size: 1.5rem;
+    color:#000000 ;
+}
+.parttitle div{
+    width: 150px;
+    padding: 1px;
+    background-color:#f4b214 ;
+}
+
+.service{
+    background-color:#fff ;
+    transition:all 0.3s;
+    cursor: pointer;
+    border: 1px solid rgb(243, 242, 242);
+    border-bottom: 8px solid rgb(243, 242, 242);
+    border-radius: 50px;
+    border-bottom-left-radius: 0px;
+
+}
+.service:hover{
+    box-shadow: 0 0 30px rgb(230, 230, 230);
+    border-bottom:8px solid #f4b214;
+}
+.service div{
+    width: 90px;
+    height: 90px;
+}
+.service h4{
+    color: #3b3b3d;
+    font-size: 1rem;
+}
+
+.service p{
+    color: #706f6f;
+    font-size: 0.8rem;
+    line-height: 25px;
+}
+.service .btn{
+    border: 2px solid #f4b214;
+    color: #f4b214 ;
+    font-size: 0.7rem;
+    transition:all 0.3s;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+}
+.service:hover .btn{
+    background-color:#f4b214;
+    color: #fff;
+}
+
+/* article */
+.bg-yellow{
+    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url("img/pattern.png") !important;
+    background-repeat: repeat;
+}
+.article {
+    transition: all 0.3s;
+    border-bottom: 8px solid rgba(0, 0, 0, 0.8);
+    border-radius: 35px;
+    border-bottom-left-radius: 0px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.article:hover{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+    border-bottom:8px solid #f4b214;
+    cursor: pointer;
+}
+.article h4{
+    color: #3b3b3d;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+.article:hover h4{
+    color: #f4b214;
+}
+.article p{
+    color: #706f6f;
+    font-size: 0.8rem;
+    line-height: 25px;
+}
+.article button{
+    border: 2px solid #f4b214;
+    color: #f4b214 ;
+    font-size: 0.7rem;
+    transition:all 0.3s;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+}
+.article:hover button{
+    background-color:#f4b214;
+    color: #fff;
+}
+/* offer */
+.productitem{
+    transition:all 0.5s;
+    cursor: pointer;
+}
+.productitem .position-absolute{
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.productitem:hover .position-absolute{
+    opacity: 1;
+}
+.productitem:hover div:nth-child(2){
+    color: #fff;
+}
+
+.productitem > img{
+    border-radius: 40px;
+    border-bottom-left-radius: 0px;
+    box-shadow: 0 0 20px #cecece;
+
+}
+.productitem  h3{
+    font-size: 1rem;
+    color: #e7e7e7;
+
+}
+.productitem  p{
+    font-size: 0.6rem;
+    line-height: 20px;
+    color: #cfcfcf;
+}
+/* comment */
+.bg-comment{
+    background-image: url("img/commentbg.jpg");
+    background-size: cover;
+}
+.comment h4{
+    font-size: 0.9rem;
+}
+.profile{
+    width: 100px;
+    height: 100px;
+}
+.profile .position-absolute{
+    left:4%;
+    bottom: 4%;
+    width: 30px;
+}
+.content img{
+    width: 40px;
+    height: 40px;
+}
+.border{
+    background-color: #f4b214;
+    padding: 1px;
+    height: 30px;
+    right: 0;
+}
+.content p{
+    font-size: 0.8rem;
+    line-height: 25px;
+    color: rgb(78, 77, 77);
+    border-right: 3px solid rgb(243, 243, 243);
+}
+.content > div > img{
+    width: 20px;
+    height: 20px;
+}
+.comment h5{
+    font-size: 0.9rem;
+    color: rgb(82, 79, 79);
+}
+/* footer */
+.bg-footer{
+    background-color: #2a2a31;
+}
+.footer h4{
+    font-size: 1rem;
+    color: #cbcddd;
+}
+.follow{
+    background-color:#37373d ;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.footer .nav-item:hover{
+    background-color: transparent;
+}
+.footer .nav-link{
+    font-size: 0.8rem;
+    color: #cbcddd !important;
+}
+.footer .nav-link > img{
+    width: 25px;
+}
+.footer .nav-link:hover{
+    font-size: 0.8rem;
+    color: #f4b214 !important;
+}
+.contact img{
+    width: 30px !important;
+}
+.footer h5{
+    font-size: 0.8rem;
+    color: #cbcddd !important;
+}
+.articleitem img{
+    width: 90px;
+    height: auto;
+    border-radius:10px !important;
+    border-bottom-left-radius: 0px !important;
+}
+.articleitem p{
+    font-size: 0.7rem !important;
+}
+.footer p{
+    font-size: 0.8rem;
+    color: #cbcddd !important;
+    line-height: 20px
+}
+form {
+    color:#c7cfe2 ;
+}
+form input , textarea{
+    /* background-color: #181616!important;
+    border: 1px solid #367daf !important; */
+}
+form label{
+    font-size: 0.8rem;
+
+}
+form button{
+    font-size: 0.8rem !important;
+    background-color:#f4b214 !important;
+    color: #fff !important;
+    border-radius:30px !important;
+    border-bottom-left-radius: 0px !important;
+}
+form button:hover{
+    background-color:#0b0a0a !important;
+    color: #fff !important;
+}
+.bg-end{
+    background-color:#0b0a0a ;
+    font-size: 0.8rem;
+    color: #cbcddd !important;
+
+}
